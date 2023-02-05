@@ -1,0 +1,21 @@
+.interviewing-container{
+
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 86%;
+    /* background-color: wheat; */
+    margin-left: 7%;
+    margin-right: 7%;
+    position: sticky;
+    margin-top: 2%;
+    height:100rem;
+}
+jobs-frame{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    height: 500px!important;
+    background-color: lightgray;
+    overflow-y: scroll;
+}

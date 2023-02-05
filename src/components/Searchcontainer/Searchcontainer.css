@@ -1,0 +1,32 @@
+.searchcontainer{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    /* margin-left: 7%; */
+    /* margin-right: 7%; */
+    justify-content: space-between;
+    /* margin-top: 10%; */
+}
+.searchcontainer >input{
+    
+    width: 80%;
+    background: #FFFFFF;
+    border: 2px solid #006FCB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333333;
+    padding: 5px;
+}
+
+.searchcontainer >button{
+    width: 15%;
+    background: #006FCB;
+    border: 2px solid #006FCB;
+    border-radius: 3px; 
+    color:#FFFFFF;
+}

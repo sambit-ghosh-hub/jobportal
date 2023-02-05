@@ -1,0 +1,40 @@
+.eligiblejob-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid brown; */
+    margin-top: 2%;
+    height: 150px;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.etitle-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: pink; */
+    height: 20px;
+    /* margin: 20px; */
+    margin-bottom: 3%;
+    
+    
+}
+.etitle-frame >label{
+    font-weight:bold;
+}
+.backimage{
+    display: inline;
+    height: 20px;
+   
+}
+.backimage >img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.backimage >span{
+    font-size: 15px;
+}
+
+

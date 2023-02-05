@@ -1,0 +1,22 @@
+.optionSelect{
+   display: flex;
+   background: #EFF6FF; 
+   border: 0;   
+   font-size: 12px;
+   font-family: "Roboto", sans-serif;
+   background: #EFF6FF; 
+}
+.option-frame{
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;  
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.option-outer-frame{
+    display: flex;
+    border: 1px solid #B6B6B6;   
+    border-radius: 5px;
+    background: #EFF6FF; 
+}

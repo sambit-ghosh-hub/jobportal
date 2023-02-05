@@ -1,0 +1,125 @@
+* {
+    font-family: Roboto, sans-serif;  
+  }
+  .signupframe{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 5%;
+    height: 87%;
+    z-index: 400;
+    /* margin-top: 7%; */
+    position:sticky
+  }
+  .signup-container{
+      width: 30%;
+      /* padding: 5px; */
+      height: 100%;
+      background-color:#FFFFFF;
+      border-radius: 12px;
+      border: 3px solid rgba(255, 255, 255, 0.125);
+      border-radius: 10px;
+  }
+  .image-container{
+    width: 80%;
+    /* padding: 5px; */
+    height: 50%;
+    background-color:#FFFFFF;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+  }
+  .image-container >img{
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+  }
+  .signup-form{
+    padding: 15px;
+    height: 100%;
+  }
+  .title{
+    text-align: center;
+      color: #0b2c29;
+      font-weight: 400;
+  }
+  
+  .signup-form-group {
+  position: relative;
+  padding: 20px 0;
+  margin: auto;
+  max-width: 100%;
+  }
+  
+  .signup-form-group input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #d8d7d7;
+  font-size: 25px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  }
+  
+  .sign-form-group label {
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  transform: translateY(30px);
+  transition: all 0.2s ease-in-out;
+  left: 0px;
+  }
+  
+  .signup-form-group input:valid,
+  .form-group input:focus {
+  border-bottom-color: #dddddd;
+  outline: none;
+  }
+  
+  .signup-form-group input:valid + label,
+  .signup-form-group input:focus + label {
+  color: rgb(29, 27, 27);
+  font-size: 14px;
+  transform: translateY(0);
+  }
+  .signup-submit-btn{
+    background:#006FCB;
+      padding: 7px 0;
+      outline: none;
+      font-size: 25px;
+      width: 90%;
+      margin: 20px 0;
+      cursor: pointer;
+      color: rgb(226, 224, 224);
+      border-radius: 7px;
+      transition: 0.1s;
+      border: 2px solid #006FCB;
+  }
+  .signup-submit-btn:hover{
+    background: #006FCB;
+    color: rgb(6,31,29);
+  }
+  a{
+    text-decoration: none;
+  }
+  .signup-register a{
+    color: rgb(15, 109, 93);
+  }
+  a:hover{ 
+    color: white;
+  }
+  .last{
+    text-align: center;
+      padding: 5px;
+  }
+  .last a{
+    margin: 0 10px;
+    font-size: 30px;
+    color: #66C1E5;
+  }
+  p{
+      font-size: 20px;
+  }

@@ -1,0 +1,39 @@
+.bs-title-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-width;
+    /* background-color: pink; */
+    height: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+.bs-title-frame >label{
+    font-weight:bold;
+}
+
+.backimage{
+    display: inline;
+    /* background-color: red; */
+}
+.label-frame{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+font-size: 18px;
+font-weight: 50;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+color: #474646;
+
+}
+
+
+.backtosearch-frame{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    color: #868686;
+    font-size: 8px;
+    
+}

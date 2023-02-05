@@ -1,0 +1,37 @@
+.searchfilter-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid brown; */
+    margin-top: 10%;
+    height: 150px;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.sf-title-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-width;
+    /* background-color: pink; */
+    height: 20px;
+    margin: 10px;
+}
+.sf-title-frame >label{
+    font-weight:bold;
+}
+.sf-backimage{
+    display: inline;
+    height: 20px;
+   
+}
+.sf-backimage >img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.sf-backimage >span{
+    font-size: 15px;
+}
+
+

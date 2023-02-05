@@ -1,0 +1,102 @@
+.snapshot-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 190px;
+    height: 70px;    
+    background: #FFFFFF;
+    /* background: red; */
+    border-radius: 8px;
+    margin-top: 10px;
+    position: sticky;
+}
+
+
+.inner-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;;
+    width: 100%;
+    height: 75%;
+    margin: 5%;
+    /* background-color: pink; */
+}
+.logo-frame{
+display: flex;
+/* position: absolute; */
+width: 30%;
+height: 100%;
+align-items: center;
+/* background-color: lemonchiffon; */
+background-color: #D4E5FF;
+border-radius: 80px;
+}
+.logo-frame >img {
+width: 50%;
+height: 50%;
+margin: 25%;
+/* background-color: red; */
+}
+
+.jobdetails-frame{
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-items: center;
+margin-left: 2%;
+width: 50%;
+height: 100%;
+/* background-color: blueviolet; */
+}
+ 
+.details{
+    /* background-color: antiquewhite; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-size: 13px;
+    
+}
+.count{
+  /* background-color: lime; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #006FCB;  
+}
+
+.arrow-frame{
+    display: flex;
+width: 20%;
+height: 100%;
+/* background-color: lemonchiffon; */
+}
+.arrow-frame >img{
+    position: sticky;
+    width: 60%;
+    height: 40%;  
+    border: 1.5px solid #006FCB;
+    border-radius: 50% ;
+    margin-top: 50%;
+    margin-left: 20%;
+    /* margin: 45%; */
+
+}
+.arrow-frame-ellipse{
+    border-radius: 50px;
+    height: 50%;
+    width: 50%;
+    margin: 20%;
+    padding: 10%;
+    background-color: burlywood;
+}
+.arrow-frame-ellipse >img{
+    /* position: absolute; */
+    width: 50%;
+    height: 50%;  
+    border: 1.5px solid #006FCB;
+    border-radius: 20px ;
+} 

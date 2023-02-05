@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #EFF6FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+code {
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+}
